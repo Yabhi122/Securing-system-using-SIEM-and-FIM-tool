@@ -1,0 +1,35 @@
+
+Date:2024-06-20 11:24:26,117, Time:2024-06-20 11:24:26,117, Event_id:103 File at path: C:\Users\vmadmin\Desktop\files\text 3.txt, Action: File has been changed.
+Date:2024-06-20 11:24:36,179, Time:2024-06-20 11:24:36,179, Event_id:102 File at path: C:\Users\vmadmin\Desktop\files\text 3.txt, Action: File has been deleted
+Date:2024-06-20 11:24:41,211, Time:2024-06-20 11:24:41,211, Event_id:101 File at path: C:\Users\vmadmin\Desktop\files\New Text Document.txt, Action: New file detected.
+Date:2024-06-20 11:24:46,242, Time:2024-06-20 11:24:46,242, Event_id:101 File at path: C:\Users\vmadmin\Desktop\files\ewfafg.txt, Action: New file detected.
+Date:2024-06-20 11:24:46,242, Time:2024-06-20 11:24:46,242, Event_id:102 File at path: C:\Users\vmadmin\Desktop\files\New Text Document.txt, Action: File has been deleted
+Date:2024-06-20 13:22:14,132, Time:2024-06-20 13:22:14,132, Event_id:103 File at path: C:\Users\vmadmin\Desktop\files\text 4.txt, Action: File has been changed.
+Date:2024-06-20 13:22:39,239, Time:2024-06-20 13:22:39,239, Event_id:102 File at path: C:\Users\vmadmin\Desktop\files\text 4.txt, Action: File has been deleted
+Date:2024-06-20 13:54:39,971, Time:2024-06-20 13:54:39,971, Event_id:103 File at path: C:\Users\vmadmin\Desktop\files\text.txt, Action: File has been changed.
+Date:2024-06-20 13:55:05,050, Time:2024-06-20 13:55:05,050, Event_id:102 File at path: C:\Users\vmadmin\Desktop\files\text.txt, Action: File has been deleted
+Date:2024-06-23 08:23:15,333, Time:2024-06-23 08:23:15,333, Event_id:103 File at path: C:\Users\vmadmin\Desktop\files\text 2.txt, Action: File has been changed.
+Date:2024-06-23 08:28:21,262, Time:2024-06-23 08:28:21,262, Event_id:103 File at path: C:\Users\vmadmin\Desktop\files\text 2.txt, Action: File has been changed.
+Date:2024-06-23 08:57:16,164, Time:2024-06-23 08:57:16,164, Event_id:103 File at path: C:\Users\vmadmin\Desktop\files\text 2.txt, Action: File has been changed.
+Date:2024-06-23 08:59:26,529, Time:2024-06-23 08:59:26,529, Event_id:103 File at path: C:\Users\vmadmin\Desktop\files\text 2.txt, Action: File has been changed.
+Date:2024-06-23 09:34:29,437, Time:2024-06-23 09:34:29,437, Event_id:103 File at path: C:\Users\vmadmin\Desktop\files\text 2.txt, Action: File has been changed.
+Date:2024-06-23 22:31:58,150, Time:2024-06-23 22:31:58,150, Event_id:103 File at path: C:\Users\vmadmin\Desktop\files\text 2.txt, Action: File has been changed.
+Date:2024-06-23 22:46:35,571, Time:2024-06-23 22:46:35,571, Event_id:103 File at path: C:\Users\vmadmin\Desktop\files\text 2.txt, Action: File has been changed.
+Date:2024-06-23 22:54:21,924, Time:2024-06-23 22:54:21,924, Event_id:103 File at path: C:\Users\vmadmin\Desktop\files\text 2.txt, Action: File has been changed.
+Date:2024-06-23 23:02:08,219, Time:2024-06-23 23:02:08,219, Event_id:102 File at path: C:\Users\vmadmin\Desktop\files\ewfafg.txt, Action: File has been deleted
+Date:2024-06-23 23:18:55,928, Time:2024-06-23 23:18:55,928, Event_id:103 File at path: C:\Users\vmadmin\Desktop\files\text 2.txt, Action: File has been changed.
+Date:2024-06-23 23:19:05,955, Time:2024-06-23 23:19:05,955, Event_id:102 File at path: C:\Users\vmadmin\Desktop\files\ppt.pptx, Action: File has been deleted
+Date:2024-06-23 23:19:20,995, Time:2024-06-23 23:19:20,995, Event_id:101 File at path: C:\Users\vmadmin\Desktop\files\FIM.py, Action: New file detected.
+Date:2024-06-24 07:59:35,461, Time:2024-06-24 07:59:35,461, Event_id:103 File at path: C:\Users\vmadmin\Desktop\files\text 2.txt, Action: File has been changed.
+Date:2024-06-24 08:12:54,024, Time:2024-06-24 08:12:54,024, Event_id:102 File at path: C:\Users\vmadmin\Desktop\files\text 2.txt, Action: File has been deleted
+Date:2024-06-24 08:29:22,095, Time:2024-06-24 08:29:22,095, Event_id:102 File at path: C:\Users\vmadmin\Desktop\files\excel.xlsx, Action: File has been deleted
+Date:2024-06-24 08:35:23,293, Time:2024-06-24 08:35:23,293, Event_id:101 File at path: C:\Users\vmadmin\Desktop\files\Script\baseline.txt, Action: New file detected.
+Date:2024-06-24 08:35:23,325, Time:2024-06-24 08:35:23,325, Event_id:101 File at path: C:\Users\vmadmin\Desktop\files\Script\Failed_login2.ps1, Action: New file detected.
+Date:2024-06-24 08:35:23,356, Time:2024-06-24 08:35:23,356, Event_id:101 File at path: C:\Users\vmadmin\Desktop\files\Script\FIM.py, Action: New file detected.
+Date:2024-06-24 08:35:23,372, Time:2024-06-24 08:35:23,372, Event_id:101 File at path: C:\Users\vmadmin\Desktop\files\Script\FIM2.py, Action: New file detected.
+Date:2024-06-24 08:35:23,372, Time:2024-06-24 08:35:23,372, Event_id:101 File at path: C:\Users\vmadmin\Desktop\files\Script\folder_logs.log, Action: New file detected.
+Date:2024-06-24 08:35:23,387, Time:2024-06-24 08:35:23,387, Event_id:101 File at path: C:\Users\vmadmin\Desktop\files\Script\text 2.txt, Action: New file detected.
+Date:2024-06-24 11:52:50,106, Time:2024-06-24 11:52:50,106, Event_id:102 File at path: C:\Users\vmadmin\Desktop\files\afsdf.xlsx, Action: File has been deleted
+Date:2024-06-24 11:54:55,673, Time:2024-06-24 11:54:55,673, Event_id:103 File at path: C:\Users\vmadmin\Desktop\files\pip command.txt, Action: File has been changed.
+Date:2024-06-24 19:17:19,900, Time:2024-06-24 19:17:19,900, Event_id:103 File at path: C:\Users\vmadmin\Desktop\files\pip command.txt, Action: File has been changed.
+Date:2024-06-24 19:17:45,047, Time:2024-06-24 19:17:45,047, Event_id:102 File at path: C:\Users\vmadmin\Desktop\files\pip command.txt, Action: File has been deleted

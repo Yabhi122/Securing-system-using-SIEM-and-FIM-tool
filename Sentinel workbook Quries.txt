@@ -1,0 +1,19 @@
+1. Heat map Query - 
+failed_rdp_CL
+|extend username = extract(@"username:([^,]+)", 1, RawData),
+         timestamp = extract(@"timestamp:([^,]+)", 1, RawData),
+         latitude = extract(@"latitude:([^,]+)", 1, RawData),
+         longitude = extract(@"longitude:([^,]+)", 1, RawData),
+         sourcehost = extract(@"sourcehost:([^,]+)", 1, RawData),
+         state = extract(@"state:([^,]+)", 1, RawData),
+         label = extract(@"label:([^,]+)", 1, RawData),
+         destination = extract(@"destinationhost:([^,]+)", 1, RawData),
+         country = extract(@"country:([^,]+)", 1, RawData)
+ 	|summarize event_count=count() by timestamp, label, country, state, sourcehost, username, destination, longitude, latitude
+
+2. Fim event Piechart
+fim_CL
+| extend Event_id = extract(@"Event_id:(\d+)", 1, RawData) // Extract the Event_id from RawData
+| where TimeGenerated >= ago(24h) // Filter logs generated in the last 24 hours
+| summarize EventCount = count() by Event_id // Summarize the count of events by Event_id
+| project Event_id, EventCount // Project the Event_id and EventCount columns

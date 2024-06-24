@@ -1,0 +1,30 @@
+FIM ALERT QUERY -
+1. NEW FILE DETECT ALERT 
+fim_CL
+| extend DateTimeString = extract("Date:([^,]+)", 1, RawData)
+| extend DateTimeParsed = todatetime(DateTimeString)
+| extend ExtractedTime = format_datetime(DateTimeParsed, 'HH:mm')
+| extend FilePath = extract("File at path: ([^,]+),", 1, RawData)
+| extend EventID = extract("Event_id:(\\d+)", 1, RawData)
+| where EventID == "101" and TimeGenerated >= ago(1m)
+| project ExtractedTime, EventID, FilePath
+
+2. FILE DELETED ALERT
+fim_CL
+| extend DateTimeString = extract("Date:([^,]+)", 1, RawData)
+| extend DateTimeParsed = todatetime(DateTimeString)
+| extend ExtractedTime = format_datetime(DateTimeParsed, 'HH:mm')
+| extend FilePath = extract("File at path: ([^,]+),", 1, RawData)
+| extend EventID = extract("Event_id:(\\d+)", 1, RawData)
+| where EventID == "102" and TimeGenerated >= ago(1m)
+| project ExtractedTime, EventID, FilePath
+
+3. FILE MODIFIED ALERT - 
+fim_CL
+| extend DateTimeString = extract("Date:([^,]+)", 1, RawData)
+| extend DateTimeParsed = todatetime(DateTimeString)
+| extend ExtractedTime = format_datetime(DateTimeParsed, 'HH:mm')
+| extend FilePath = extract("File at path: ([^,]+),", 1, RawData)
+| extend EventID = extract("Event_id:(\\d+)", 1, RawData)
+| where EventID == "103" and TimeGenerated >= ago(1m)
+| project ExtractedTime, EventID, FilePath
